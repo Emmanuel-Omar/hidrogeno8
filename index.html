@@ -121,7 +121,7 @@
                                                 class="flaticon-right-arrow-1"></i></span></a>
                                 </div>
                                 <div class="video-popup" style="margin-left: 1.5em;">
-                                    <div class="btn-inner"><a href="#"><i class="fas fa-play"></i></a></div>
+                                    <div class="btn-inner"><a href="#guia"><i class="fas fa-play"></i></a></div>
                                     <span style="text-transform: initial;">Guía redes sociales</span>
                                 </div>
                             </div>
@@ -234,7 +234,7 @@
                                     <div class="process-box">
                                         <div class="number-box">03</div>
                                         <div class="icon-main p-b20">
-                                            <img src="./images/process3-1.png" alt="Project Termination">
+                                            <img src="./images/metodologias.png" alt="Project Termination">
                                         </div>
                                         <div class="content-box">
                                             <h5>Metodologías</h5>
@@ -246,7 +246,7 @@
                                 </div>
                             </div>
                         </div>
-
+                        <div id="guia" />
                         <div class="col-md-12 col-xs-12 p-t70">
                             <div class="search-engine-form search-engine-form-home3">
                                 <div class="bg-overlay"></div>
@@ -485,7 +485,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <a href="#" class="octf-btn octf-btn-icon octf-btn-secondary">Elegir Plan<i
+                                <a href="#contacto" class="octf-btn octf-btn-icon octf-btn-secondary">Elegir Plan<i
                                         class="flaticon-right-arrow-1"></i></a>
                             </div>
                         </div>
@@ -525,7 +525,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <a href="#" class="octf-btn octf-btn-icon octf-btn-third">Elegir Plan<i
+                                <a href="#contacto" class="octf-btn octf-btn-icon octf-btn-third">Elegir Plan<i
                                         class="flaticon-right-arrow-1"></i></a>
                             </div>
                         </div>
@@ -542,7 +542,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <a href="#" class="octf-btn octf-btn-icon octf-btn-primary">Elegir Plan<i
+                                <a href="#contacto" class="octf-btn octf-btn-icon octf-btn-primary">Elegir Plan<i
                                         class="flaticon-right-arrow-1"></i></a>
                             </div>
                         </div>
@@ -613,7 +613,7 @@
                 </div>
                 <div class="container">
                     <div class="cta-content text-center">
-                        <h2 class="m-b20">Cuéntanos cómo te lo imaginas<br>y lo haremos realidad !</h2>
+                        <h2 class="m-b20">Cuéntanos cómo te lo imaginas<br>y lo haremos realidad!</h2>
                         <p class="m-b35">¿Estás listo para comenzar a potenciar tu negocio?</p>
                         <div class="ot-button">
                             <a href="https://calendly.com/sarai-troncoso/45min" target="_blank"
@@ -655,46 +655,18 @@
                                     <input type="email" name="email" class="wpcf7-form-control wpcf7-text wpcf7-email"
                                         placeholder="Correo *" required="">
                                 </p>
-                                <p class="col-md-6 col-xs-12">
-                                    <input type="tel" name="phone" class="wpcf7-form-control wpcf7-text wpcf7-tel"
-                                        placeholder="Numero de télefono *" required="">
-                                </p>
-                                <p class="col-md-6 col-xs-12">
-                                    <input type="url" name="website" class="wpcf7-form-control wpcf7-text"
-                                        placeholder="URL de su Web">
-                                </p>
-                                <p class="col-md-12 col-xs-12 multi-checkbox">
-                                    <label style="margin-bottom: -1rem; display: block; font-weight: 500;">Indique que
-                                        paquetes es de su
-                                        interes</label><br>
-                                    <span class="wpcf7-form-control-wrap your-option">
-                                        <span class="wpcf7-form-control wpcf7-checkbox">
-                                            <span class="wpcf7-list-item first" style="width: 23%;">
-                                                <label>
-                                                    <input type="checkbox" name="name[]" value="MICRO EMPRESARIAL">
-                                                    <span class="wpcf7-list-item-label">Micro Empresarial</span>
-                                                </label>
-                                            </span>
-                                            <span class="wpcf7-list-item" style="width: 23%;">
-                                                <label>
-                                                    <input type="checkbox" name="name[]" value="EJECUTIVO">
-                                                    <span class="wpcf7-list-item-label">Ejecutivo</span>
-                                                </label>
-                                            </span>
-                                            <span class="wpcf7-list-item" style="width: 23%;">
-                                                <label>
-                                                    <input type="checkbox" name="name[]" value="PERSONALIZADO">
-                                                    <span class="wpcf7-list-item-label">Personalizado</span>
-                                                </label>
-                                            </span>
-                                            <span class="wpcf7-list-item last" style="width: 23%;">
-                                                <label>
-                                                    <input type="checkbox" name="name[]" value="OTRO">
-                                                    <span class="wpcf7-list-item-label">Otro</span>
-                                                </label>
-                                            </span>
-                                        </span>
-                                    </span>
+                                <p class="cold-md-6 col-xs-12">
+                                    <label style="margin-bottom: -1.5rem; display: block; font-weight: 500">
+                                        Selecciona tu paquete de interes
+                                    </label><br>
+                                    <select type="select"
+                                        style="background: white; border-radius: 22rem; padding: 1.4rem 1.5rem; width: 48.5%;"
+                                        id="paquete" name="paquete" placeholder="paquete" aria-invalid="false">
+                                        <option value="microEmpresarial">Micro Empresarial</option>
+                                        <option value="ejecutivo">Ejecutivo</option>
+                                        <option value="personalizado">Personalizado</option>
+                                        <option value="otro">Otro</option>
+                                    </select>
                                 </p>
                                 <p class="col-md-12 col-xs-12">
                                     <textarea type="text" name="message" class="wpcf7-form-control wpcf7-textarea"
@@ -738,7 +710,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-sm-6">
+                        <div class="col-lg-4 col-sm-6">
                             <div class="footer-widget">
                                 <h5>Contacto</h5>
                                 <div class="footer-contact-2">
@@ -749,37 +721,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="footer-widget">
-                                <h5>Servicios</h5>
-                                <ul class="ft-menu-list">
-                                    <li class="ft-menu-item"><a href="https://hidrogeno8/en/servicios/diseno-web">Web
-                                            Design</a></li>
-                                    <li class="ft-menu-item"><a
-                                            href="https://hidrogeno8/en/servicios/activaciones-btl">BTL activations</a>
-                                    </li>
-                                    <li class="ft-menu-item"><a
-                                            href="https://hidrogeno8/en/servicios/identidad-corporativa">Corporate
-                                            identity</a></li>
-                                    <li class="ft-menu-item"><a
-                                            href="https://hidrogeno8/en/servicios/aplicaciones-moviles">Mobile Apps</a>
-                                    </li>
-                                    <li class="ft-menu-item"><a
-                                            href="https://hidrogeno8/en/servicios/diseno-grafico">Graphic Design</a>
-                                    </li>
-                                    <li class="ft-menu-item"><a
-                                            href="https://hidrogeno8/en/servicios/papeleria-corporativa">Corporate
-                                            Stationery</a></li>
-                                    <li class="ft-menu-item"><a
-                                            href="https://hidrogeno8/en/servicios/redes-sociales">Social networks</a>
-                                    </li>
-                                    <li class="ft-menu-item"><a
-                                            href="https://hidrogeno8/en/servicios/campanas-digitales">Digital
-                                            campaigns</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
+                        <div class="col-lg-4 col-sm-6">
                             <div class="footer-widget">
                                 <h5>Instagram</h5>
                                 <div class="widget-insta-feeds instafeed-gallery">
